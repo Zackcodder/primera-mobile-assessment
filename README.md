@@ -7,6 +7,7 @@ Follow the instruction in the provided assessment below
 Implement the attached screenshots design using flutter.
 This assessment takes maximum of 2 hours for completion. Simply pay attention to the instruction detail. 
 
+
 > NOTE: 
 
 * The menu items do not need to navigate to any page. 
@@ -22,7 +23,10 @@ These icons might not fit in to what is in the design but the focus is for you t
 
 ### Screenshots
 
-<img src="screenshots/More%20light.png" alt="Light mode" width="200"/> <img src="screenshots/More%20dark.png" alt="Dark mode" width="200"/>
+![Screenshot_1676900016](https://user-images.githubusercontent.com/39867606/220122651-4969c6dd-7d7a-439d-96f9-b3252519bf8b.png)
+![Screenshot_1676900007](https://user-images.githubusercontent.com/39867606/220122659-917fb499-5f6c-482b-8a7e-c73768223604.png)
+![Screenshot_1676900010](https://user-images.githubusercontent.com/39867606/220122664-9742bbe2-1938-4265-a3a0-6f173d43b370.png)
+![Screenshot_1676900013](https://user-images.githubusercontent.com/39867606/220122667-f443a1ff-0a7e-4f50-9101-f4a458fff46e.png)
 
 
 ### Figma File
@@ -39,8 +43,8 @@ These icons might not fit in to what is in the design but the focus is for you t
 > Replace the placeholder information with your name and email.
 
 Canditate Name: 
-e.g John Doe
+e.g Ayodele Salimonu
 
 Candidate Email: 
-e.g johndoe@example.com
+e.g ayodele951@gmail.com
 
