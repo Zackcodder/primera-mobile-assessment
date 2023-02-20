@@ -46,7 +46,7 @@ class SettingScreenView
                       themeSwitch: false,
                       text: 'Account Verification',
                       icon: Icons.security_update,
-                      widget: Chip(
+                      widget: const Chip(
                         label: Text(
                           "Verified",
                           style: TextStyle(color: Colors.white),
@@ -117,6 +117,53 @@ class SettingScreenView
                     },
                   )),
             ),
+            const SizedBox(height: 16),
+            const Text('Others'),
+            const SizedBox(height: 16),
+            Container(
+              decoration: const BoxDecoration(
+                  color: Colors.white10,
+                  borderRadius: BorderRadius.all(Radius.circular(18))),
+              child: Column(
+                children: [
+                  cardSetting(
+                      themeSwitch: false,
+                      text: 'Refer & Earn',
+                      icon: Icons.people),
+                  cardSettingWithIcon(
+                    themeSwitch: false,
+                    text: 'Terms & Conditions ',
+                    icon: Icons.lock,
+                  ),
+                  cardSetting(
+                      themeSwitch: false,
+                      text: 'Statement of Account',
+                      icon: Icons.edit),
+                  cardSetting(
+                      themeSwitch: false,
+                      text: 'Privacy Policy',
+                      icon: Icons.privacy_tip),
+                  cardSetting(
+                      themeSwitch: false, text: 'Log Out', icon: Icons.login),
+                  cardSettingWithColor(
+                      themeSwitch: false,
+                      text: 'Delete Account',
+                      icon: Icons.delete),
+                ],
+              ),
+            ),
+            Container(
+              margin: const EdgeInsets.only(top: 20, left: 50, right: 50),
+              height: 40,
+              // width: 100,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(8),
+                color: controller.changeTheme
+                    ? AppColors.primary
+                    : AppColors.greyscale400Color,
+              ),
+              child: const Center(child: Text("Check for updates")),
+            )
           ],
         ),
       ),

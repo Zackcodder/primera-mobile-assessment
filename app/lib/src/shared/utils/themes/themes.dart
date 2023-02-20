@@ -12,6 +12,7 @@ String enumName(AppTheme anyEnum) {
 Map<AppTheme, ThemeData> appThemeData = {
   AppTheme.white: ThemeData(
     cardColor: Colors.white,
+
     fontFamily: "Raleway",
     dialogTheme: const DialogTheme(
         titleTextStyle: TextStyle(
@@ -31,7 +32,7 @@ Map<AppTheme, ThemeData> appThemeData = {
       color: Colors.white,
     ),
     iconTheme: const IconThemeData(
-      color: Colors.black87,
+      color: Color.fromARGB(255, 3, 29, 83),
     ),
     textTheme: const TextTheme(
       headline6: TextStyle(
